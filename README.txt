@@ -1,10 +1,13 @@
 BOSS OD-1 Over Drive (Light)
 
-BOSS OD-1���ȗ��������G�t�F�N�^�[�ł��B��ȕύX�_�͈ȉ��̒ʂ�ł��B
+BOSS OD-1を簡略化したエフェクターです。
+実機は持っていないのでZoom MS-50GのOverDriveと比較しました。当たり前ですがよく似ていて、TONE50では自作機の方がややブライトな感じでした。
 
-���o�͂̃o�b�t�@���ȗ����A�g�D���[�o�C�p�X��
-�o�͔��]���񔽓]
-�r���̃��[�p�X�t�B���^10k����18nF��18k����10nF
-�d���d����3.3V�i���M�����[�^�g�p�j
-�o�C�A�X�d����1.8V�i���M�����[�^�g�p�j
-LEVEL�|�b�g10kB��100kA�A�ʒu�ύX
+主な変更点は以下の通りです。
+
+入出力のバッファ→省略し、トゥルーバイパスへ
+出力反転→非反転
+途中のローパスフィルタ10kΩと18nF→18kΩと10nF
+電源電圧→3.3V（レギュレータ使用）
+バイアス電圧→1.8V（レギュレータ使用）
+LEVELポット10kB→100kA、位置変更
